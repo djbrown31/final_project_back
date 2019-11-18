@@ -7,4 +7,4 @@ class User(models.Model)
 class Recipe(models.Model):
     user_id = models.ForeignKey(Category, on_delete=models.CASCADE,
     recipe_id ='recipes')
-    text = models.TextField()
+    text = models.TextField()aiufuoiusd
